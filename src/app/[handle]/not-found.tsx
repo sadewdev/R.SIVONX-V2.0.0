@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "@heroui/react";
+import { Button } from "@heroui/button";
 import { SearchX } from "lucide-react";
 
 export default function NotFound() {
