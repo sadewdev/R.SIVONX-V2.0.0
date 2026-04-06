@@ -4,7 +4,8 @@ import { use, useState, useEffect } from "react";
 import { supabase } from "@/lib/supabase";
 import { ArrowLeft, BadgeCheck, UserPlus, UserMinus, Share, Calendar, Edit3, X, Check } from "lucide-react";
 import Link from "next/link";
-import { Button, Input, Form, Label, Spinner } from "@heroui/react";
+import { Input, Form, Label, Spinner } from "@heroui/react";
+import { Button } from "@heroui/button";
 import { Textarea } from "@heroui/input";
 
 export default function ProfilePage({ params }: { params: Promise<{ handle: string }> }) {
