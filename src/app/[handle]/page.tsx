@@ -132,7 +132,7 @@ export default function ProfilePage({ params }: { params: Promise<{ handle: stri
     if (loading || !profile) {
         return (
             <div className="min-h-screen bg-[#030303] flex items-center justify-center">
-                <Spinner color="white" size="lg" />
+                <Spinner color="current" className="text-white" size="lg" />
             </div>
         );
     }
